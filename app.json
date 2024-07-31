@@ -16,13 +16,15 @@
       "supportsTablet": true,
       "infoPlist": {
         "CFBundleAllowMixedLocalizations": true
-      }
+      },
+      "bundleIdentifier": "com.jcxdc.ll"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jcxdc.ll"
     },
     "web": {
       "bundler": "metro",
@@ -32,7 +34,6 @@
     "locales": {
       "en": "./assets/locales/en.json",
       "vi": "./assets/locales/vi.json"
-    
     },
     "plugins": [
       "expo-router",
